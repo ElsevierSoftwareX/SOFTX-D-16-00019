@@ -1,0 +1,25 @@
+To compile the program you need the following:
+
+A working "C" compiler installation, along with libc and libm libraries.
+A working "make" utility.
+Optionally the SDL2 library with X11 to enable -view switch.
+
+Make files are provided for GNUGCC/Cygwin inside the source dir.
+To compile the program, issue the command:
+
+make -f makefile.linux-gnu
+
+this will compile an SDL2 enabled version of the software, to compile
+without SDL2 use:
+
+make -f makefile.linux-gnu nosdl
+
+Under windows use
+
+make -f makefile.win
+
+you will end with an executable name segy-change in the same directory 
+of the source files.
+
+To test the program an EXAMPLES folder containing data and example scripts 
+are given.

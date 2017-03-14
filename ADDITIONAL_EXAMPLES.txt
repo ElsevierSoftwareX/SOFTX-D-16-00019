@@ -1,0 +1,1 @@
+segy-change -f /home/hd/tmp/CHIRP/TEST7-PWR50-GAIN+MAX/CHIRPSURVEY-2015-05-28-10-19-35.seg -all -only_traces_with NUMBER_OF_SAMPLES_IN_THIS_TRACE:10000 -use_names
